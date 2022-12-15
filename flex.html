@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .justify-content, .align-items, .align-content{
+                display: flex;
+                background-color: rgb(231, 164, 38);
+                margin: 10px;
+                padding: 10px;
+                height: 600px;
+            }
+
+            .child-div{
+                width: 100%;
+                background-color: #391862;
+                margin: 0px 10px;
+            }
+
+            .child-div div{
+                width: 50px;
+                height:50px;
+                background-color: white;
+                margin: 0px 10px;
+            }
+
+            .justify-content{
+                justify-content: space-evenly;
+            }
+
+            .align-items{
+                align-items: end;
+                justify-content: center;
+            }
+
+            .align-items .child-div, .align-content .child-div{
+                height: 100px;
+            }
+
+            .align-content{
+                flex-wrap: wrap;
+                align-content:space-around;
+                
+            }
+
+            .align-content .child-div{
+                display: flex;
+                justify-content:center;
+                align-items: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="justify-content">
+            <div class="child-div"></div>
+            <div class="child-div"></div>
+            <div class="child-div"></div>
+        </div>
+        <div class="align-items">
+            <div class="child-div"></div>
+            <div class="child-div"></div>
+            <div class="child-div"></div>
+        </div>
+        <div class="align-content">
+            <div class="child-div">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="child-div">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="child-div">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </body>
+</html>

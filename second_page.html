@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Second Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            th{
+                border:1px solid #333; 
+                padding: 5px; 
+                background-color: rgb(190, 146, 232);
+            }
+            td{
+                border:1px solid #333;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>This is my second page</h2>
+        <a href="index.html">Home</a>
+
+        <h4>Ordered list</h4>
+        <ol type="A">
+            <li>Sandals</li>
+            <li>Book</li>
+            <li>Pasta</li>
+            <li>Hood</li>
+            <li>Socks</li>
+        </ol>
+
+        <h4>Unordered List</h4>
+        <ul style="list-style-type: none;">
+            <li>Sandals</li>
+            <li>Book</li>
+            <li>Pasta</li>
+            <li>Hood</li>
+            <li>Socks</li>
+        </ul>
+
+        <h4>Students Table</h4>
+        <table style="border: 1px solid black;">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Nationality</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Khristine</td>
+                <td>45</td>
+                <td>Kenyan</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Vivian</td>
+                <td>45</td>
+                <td>Kenyan</td>
+            </tr>
+        </table>
+
+        <h4>Inquiry form</h4>
+        <form action="mailto:delivce.ndegwa18@gmail.com?Subject=test" method="POST" enctype="text/plain">
+            <label for="username">Username</label>
+            <br>
+            <input type="text" name="username" placeholder="Eg: Del" />
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" placeholder="youremail@example.com" />
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message"> </textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+
+
+
+        <a href="mailto:delivce.ndegwa18@gmail.com">My email</a>
+    </body>
+</html>

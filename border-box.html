@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Border box</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <style>
+            .with-content-box{
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                box-sizing: content-box;
+                background-color: yellow;
+
+            }
+            .with-border-box{
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                margin: 20px;
+                box-sizing: border-box;
+                background-color: rgb(230, 109, 230);
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="with-content-box">
+            Content box
+        </div>
+        <div class="with-border-box">
+            Border box
+        </div>
+    </body>
+</html>

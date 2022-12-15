@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .block-elements, .inline-elements, .inline-block-elements{
+                margin: 10px;
+                padding: 10px;
+                height: 40vh;
+            }
+            .block-elements{
+                background-color: azure;
+            }
+            .inline-elements{
+                background-color: antiquewhite;
+            }
+
+            .block{
+                display: block;
+                width: 400px;
+                height: 100px;
+                background: rgb(110, 110, 223);
+                margin: 10px;
+                padding:10px;
+            }
+
+            .inline{
+                display: inline;
+                width: 400px;
+                height: 100px;
+                background: rgb(255, 0, 217);
+                margin: 10px;
+                padding:10px;
+            }
+
+            .inline-block-elements{
+                background-color: burlywood;
+                display: none;
+            }
+
+            .inline-block{
+                display: inline-block;
+                width: 400px;
+                height: 100px;
+                background: rgb(255, 208, 0);
+                margin: 10px;
+                padding:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="block-elements">
+            <div class="block">block 1</div>
+            <div class="block">block 2</div>
+        </div>
+        <div class="inline-elements">
+            <div class="inline">inline 1</div>
+            <div class="inline">inline 2</div>
+        </div>
+        <div class="inline-block-elements">
+            <div class="inline-block">inline 1</div>
+            <div class="inline-block">inline 2</div>
+        </div>
+    </body>
+</html>

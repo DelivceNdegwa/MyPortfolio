@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+        <style>
+            .height-250{
+                height: 250px !important;
+            }
+
+            .banner-img{
+                height: 40vh;
+            }
+            img{
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">BRAND</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!-- Body -->
+        
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-between p-3 bg-dark">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="elon.jpg" class="img-fluid rounded w-100 banner-img"/>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h3 class="display-4 text-secondary">My bootstrap page</h3>
+                    <p class="lead text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, ut iste labore, voluptate debitis ex quos facilis ea repellendus est quod illo eaque. Sunt nisi aliquid ducimus nostrum qui. Doloribus!</p>
+                </div>
+            </div>
+            <div class="row justify-content-between mt-2" >
+                <div class="col-12">
+                    <h3>My Gallery</h3>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <img src="elon.jpg" class="img-fluid rounded w-100 width-250"/>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <img src="elon.jpg" class="img-fluid rounded w-100 width-250"/>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <img src="elon.jpg" class="img-fluid rounded w-100 width-250"/>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-2">
+                    <img src="elon.jpg" class="img-fluid rounded w-100 width-250"/>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
